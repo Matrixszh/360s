@@ -8,9 +8,9 @@ export const AboutUs = () => {
     <div className="flex flex-col-reverse lg:flex-row items-center justify-between px-5  lg:px-16 gap-14">
       <div className="flex flex-col gap-6  lg:items-start items-center">
         <h1 className="flex gap-2 text-white text-3xl lg:text-4xl">
-          Meet{" "}
+          
           <span className="flex text-[#7384f0] flex-col items-center">
-            <p>Abdullah Ghaffar</p>
+            <p>360 Marketing Solutions</p>
             <Image
               src={underline}
               alt="underline"

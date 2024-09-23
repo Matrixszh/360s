@@ -17,86 +17,85 @@ export const data = [
       {
         id: 1,
         image: C1,
-        name: "AK Callers",
-        info: "Professional and experienced cold callers trained on industry specific sales",
+        name: "Ethames",
+        info: "At EThames College, we are dedicated to providing quality education.",
         bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
         link: "https://www.akcallers.com/", // Add link here
       },
     ],
   },
   {
-    domain: "Link & Lead",
+    domain: "Gladiator Gym",
     companies: [
       {
         id: 1,
         image: C2,
-        name: "Ellite Summit",
-        info: "Empowering Entrepreneurs, Sparking Innovation, Building Success",
+        name: "Gladiator Gym",
+        info: "Gladiator Gym is a fitness center dedicated to intense strength training and conditioning, inspired by the discipline and resilience of ancient gladiators.",
         bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
       },
     ],
   },
   {
-    domain: "Marketing",
+    domain: "",
     companies: [
       {
         id: 1,
         image: C3,
-        name: "Ghaffar Media",
-        info: "We help Entrepreneurs build and Monetize their Personal Brand",
+        name: "Lush Cafe",
+        info: "Lush Café is a cozy and vibrant spot offering a range of artisanal coffee, fresh pastries, and gourmet meals in a relaxed atmosphere.",
         bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
-        link: "https://ghaffarmedia.com/",
+        
       },
     ],
   },
   {
-    domain: "Airbnb",
+    domain: "",
     companies: [
       {
         id: 1,
         image: C4,
-        name: "Ghaffar Management",
-        info: "Experience the Ghaffar Advantage with expert property management",
+        name: "Brew Haven Cafe",
+        info: "Brew Heaven Café is a cozy spot offering freshly brewed coffee, artisan pastries, and a relaxing atmosphere for coffee lovers.",
         bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
-        link: "https://www.ghaffarmgmt.com/",
+        
       },
     ],
   },
   {
-    domain: "Wholesale",
+    domain: " ",
     companies: [
       {
         id: 1,
         image: C5,
-        name: "National Fast Offer",
-        info: "Get an offer for your house today",
+        name: "Tere F&B Solutions",
+        info: "Tere F&B Solutions specializes in providing innovative food and beverage services, enhancing dining experiences with tailored solutions for various venues.",
         bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
-        link: "https://www.nationalfastoffer.com/",
-      },
+        },
     ],
   },
   {
-    domain: "Studio",
+    domain: "H&FFoundations",
     companies: [
       {
         id: 1,
         image: C6,
-        name: "Ghaffar Studio",
-        info: "Professional studio services, delivering high-quality production and creative solutions for your projects",
+        name: "H&F Foundations",
+        info: "H & F Foundation is a charitable organization dedicated to improving health and fitness in communities through support, education, and outreach programs.",
         bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
       },
     ],
   },
   {
-    domain: "Coaching",
+    domain: "",
     companies: [
       {
         id: 1,
         image: C7,
-        name: "Ellite Flippers",
-        info: "Hands-on guidance that teaches you real estate wholesaling to close more deals",
+        name: "The Wilsons",
+        info: "Wilson's Clothing offers stylish, high-quality apparel that blends classic designs with modern trends for versatile, everyday wear.",
         bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
-        link: "https://eliteflippers.com/",
+       
       },
     ],
   },
@@ -106,7 +105,7 @@ export const data = [
       {
         id: 1,
         image: C8,
-        name: "Ellite Entrepreneurs",
+        name: "Little Warrior",
         info: "Insights from Entrepreneurs to be financially free",
         bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
       },
@@ -118,8 +117,8 @@ export const data = [
       {
         id: 1,
         image: C9,
-        name: "Homerun Equity",
-        info: "Sell Your Deal Fast! Partner with Nationwide Property Liquidators!",
+        name: "Wildwood Ranch",
+        info: "Wildwood Ranch is a scenic retreat offering outdoor adventure, recreational activities, and camp experiences in a natural, rustic setting.",
         bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
         link: "https://homerunequity.com/",
       },

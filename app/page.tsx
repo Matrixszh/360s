@@ -279,7 +279,7 @@ export default function Home() {
           id="about"
         >
           <p className="text-[#7384f0] text-center border-[1px] border-[#7384f0] px-8 py-1 rounded-2xl text-sm tracking-wider">
-            WHO AM I
+            ABOUT
           </p>
           <h1 className="text-center text-white text-3xl lg:text-6xl ">About Us</h1>
         </div>
@@ -302,47 +302,7 @@ export default function Home() {
         </div>
         <Companies />
       </section>
-      <section
-        className="min-h-screen flex flex-col lg:gap-[6vh] gap-[6vh] overflow-hidden"
-        id="events-sec"
-      >
-        <div
-          className="flex flex-col items-center gap-4 justify-center lg:justify-start pt-[5vh]"
-          id="events"
-        >
-          <p className="text-[#7384f0] text-center border-[1px] border-[#7384f0] px-8 py-1 rounded-2xl text-sm tracking-wider">
-            EVENTS
-          </p>
-          <h1 className="text-center text-white text-3xl lg:text-6xl  ">
-            The Events We Host
-          </h1>
-        </div>
-        <div className="flex flex-col gap-8" id="event-content">
-          <p
-            className="text-lg lg:text-xl text-white text-justify  md:px-14 px-7 "
-            style={{ lineHeight: "1.85" }}
-          >
-            At the heart of our enterprises is a strong commitment to community
-            and collaboration, and this is best exemplified through our dynamic
-            events. Our events are not just gatherings but curated experiences
-            where entrepreneurs, investors, and professionals from various
-            industries come together to share knowledge, forge connections, and
-            explore new opportunities.{" "}
-            <span className="hidden md:flex md:pt-4">
-              Hosted by our Visionary founder, these events focus on empowering
-              individuals to start or build their own business, while showcasing
-              the innovative solutions we offer across a diverse range of
-              industries, including lead generation, real estate wholesaling,
-              marketing, coaching, and more. We invite you to browse through the
-              moments captured at our events, where like-minded individuals
-              engage in insightful discussions, spark new ideas, and lay the
-              foundation for future collaborations. Join us at our next event
-              and become part of this growing, dynamic community.
-            </span>
-          </p>
-          <Events />
-        </div>
-      </section>
+
       <section
         className="flex flex-col items-center lg:min-h-screen  lg:gap-[6vh] gap-[6vh] overflow-hidden"
         id="collaboration-sec"
@@ -352,31 +312,15 @@ export default function Home() {
           id="collaboration"
         >
           <p className="text-[#7384f0] text-center border-[1px] border-[#7384f0] px-8 py-1 rounded-2xl text-sm tracking-wider items-center">
-            COLLABORATIONS
+            PROJECTS
           </p>
           <h1 className="text-center text-white text-3xl lg:text-6xl  ">
-            Our Collaborations
+            Our Works
           </h1>
         </div>
         <Collaborations />
       </section>
-      <section
-        className="bg-black flex flex-col lg:gap-[6vh] gap-[6vh] overflow-hidden"
-        id="reviews-sec"
-      >
-        <div
-          className="flex flex-col items-center gap-4 justify-center lg:justify-start pt-[5vh]"
-          id="reviews"
-        >
-          <p className="text-[#7384f0] text-center border-[1px] border-[#7384f0] px-8 py-1 rounded-2xl text-sm tracking-wider">
-            Reviews
-          </p>
-          <h1 className="text-center text-white text-3xl lg:text-6xl">
-            Customer Testimonial
-          </h1>
-        </div>
-        <Reviews />
-      </section>
+
       <section
         id="affiliate-sec"
         className="flex flex-col items-center lg:gap-[6vh] gap-[6vh] overflow-hidden scroll-mt-6"

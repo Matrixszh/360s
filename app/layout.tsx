@@ -4,19 +4,19 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://360-ms-git-main-syed-zain-hussainis-projects.vercel.app/"),
-  title: "Ghaffar Enterprises",
+  title: "360 Marketing Solutions",
   description:
-    "Ghaffar Enterprises is a multi-faceted organization founded by Abdullah Ghaffar, encompassing a diverse portfolio of companies focused on innovation, integrity, and impact. Our companies span lead generation, real estate, media, coaching, and more, all working together to empower businesses and individuals to achieve growth and success. At Ghaffar Enterprises, we are committed to delivering exceptional value and building a brighter future.",
+    "360 Marketing Solutions is a dynamic, forward-thinking marketing agency.",
   openGraph: {
-    title: "Ghaffar Enterprises",
+    title: "360 Marketing Solutions",
     description:
-      "Ghaffar Enterprises is a multi-faceted organization founded by Abdullah Ghaffar, encompassing a diverse portfolio of companies focused on innovation, integrity, and impact. Our companies span lead generation, real estate, media, coaching, and more, all working together to empower businesses and individuals to achieve growth and success. At Ghaffar Enterprises, we are committed to delivering exceptional value and building a brighter future.",
+      "360 Marketing Solutions is a dynamic, forward-thinking marketing agency.",
     images: [
       {
         url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "Ghaffar Enterprises",
+        alt: "360 Marketing Solutions",
       },
     ],
     type: "website",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ghaffar Enterprises",
+    title: "360 Marketing Solutions",
     description:
-      "Ghaffar Enterprises is a multi-faceted organization founded by Abdullah Ghaffar, encompassing a diverse portfolio of companies focused on innovation, integrity, and impact. Our companies span lead generation, real estate, media, coaching, and more, all working together to empower businesses and individuals to achieve growth and success. At Ghaffar Enterprises, we are committed to delivering exceptional value and building a brighter future.",
+      "360 Marketing Solutions is a dynamic, forward-thinking marketing agency.",
     images: ["/logo.png"],
   },
 };

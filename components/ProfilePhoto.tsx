@@ -12,7 +12,7 @@ export const ProfilePhoto = () => {
       <div
         className="p-4 shadow-2xl z-10 relative"
         style={{
-          background: "linear-gradient(132deg, #c2c2c2 0%, #969696 100%)",
+          background: "#7384f0",
           width: "30vw", // Adjust width based on your design
         }}
       >

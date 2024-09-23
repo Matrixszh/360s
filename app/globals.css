@@ -131,6 +131,10 @@
 .right-arrow {
   right: 1px;
 }
+.shadow-white {
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3), 0 6px 20px rgba(255, 255, 255, 0.2);
+}
+
 /* Custom scrollbar styling */
 .custom-scroll ul::-webkit-scrollbar {
   width: 8px; /* Thin scrollbar */

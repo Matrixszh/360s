@@ -71,7 +71,7 @@ export const Companies: React.FC = () => {
             {domain.companies.map((company: Company) => (
               <div className="md:w-[70%] w-full  company-card" key={company.id}>
                 <Card
-                  className={`flex flex-col items-center text-center overflow-hidden h-full shadow-2xl transition-transform duration-300 hover:scale-105 cursor-pointer`}
+                  className={`flex flex-col items-center text-center overflow-hidden h-full shadow-white shadow-2xl transition-transform duration-300 hover:scale-105 cursor-pointer`}
                   style={{ background: company.bgColor }}
                   onClick={() =>
                     company.link && window.open(company.link, "_blank")

@@ -41,24 +41,24 @@ export const Footer = () => {
         </div>
         <div className="flex  items-center justify-center gap-8">
           <div className="flex flex-col justify-between gap-4">
-            <Link href="mailto:info@ghaffarenterprises ">
+            <Link href="mailto:360mkgtsolutions@gmail.com ">
               <IoMailOutline className="text-[#7384f0] md:text-3xl text-2xl animate-pulse" />
             </Link>
-            <Link href="tel:+1 (630) 526-4000">
+            <Link href="tel:+91 9885017861">
               <MdOutlinePhoneInTalk className="text-[#7384f0] md:text-3xl text-2xl animate-pulse" />
             </Link>
           </div>
           <div className="flex flex-col justify-between gap-4">
             <Link
-              href="mailto:info@ghaffarenterprises "
+              href="mailto:360mkgtsolutions@gmail.com "
               className="md:text-xl text-gray-500 text-lg"
             >
               {" "}
-              info@ghaffarenterprises.com
+              360mkgtsolutions@gmail.com
             </Link>
-            <Link href="tel:+1 (630) 526-4000" className="md:text-xl text-gray-500 text-lg">
+            <Link href="tel:+91 9885017861" className="md:text-xl text-gray-500 text-lg">
               {" "}
-              630-526-4000
+              9885017861
             </Link>
           </div>
         </div>
@@ -66,7 +66,7 @@ export const Footer = () => {
         <span className="block text-sm text-white sm:text-center dark:text-white">
           © 2024{" "}
           <a href="/" className="hover:underline">
-            Ghaffar Enterprises™
+            360 Marketing Solutions™
           </a>
           . All Rights Reserved.
         </span>

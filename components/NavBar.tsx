@@ -13,7 +13,8 @@ import Link from "next/link";
 const NavBar = () => {
   const items = [
     { item: "Home", id: "home" },
-    { item: "Companies", id: "companies" },
+    { item: "Services", id: "affiliate" },
+    { item: "Clients", id: "companies" },
     { item: "Contact", id: "pricing" },
   ];
   const menuItemsRef = useRef<(HTMLParagraphElement | null)[]>([]);
