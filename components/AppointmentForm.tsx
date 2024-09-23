@@ -56,7 +56,7 @@ const AppointmentForm = () => {
           {...register("name", { required: "Name is required" })}
           type="text"
           placeholder="Name"
-          className="rounded-xl p-2 border"
+          className="rounded-xl bg-gray-800 p-2 border"
         />
         {errors.name && (
           <div className="text-red-500">{errors.name.message}</div>
@@ -74,7 +74,7 @@ const AppointmentForm = () => {
               })}
               type="text"
               placeholder="Email"
-              className="rounded-xl p-2 border w-full"
+              className="rounded-xl p-2 bg-gray-800 border w-full"
             />
             {errors.email && (
               <div className="text-red-500">{errors.email.message}</div>
@@ -92,7 +92,7 @@ const AppointmentForm = () => {
               })}
               type="text"
               placeholder="Number"
-              className="rounded-xl p-2 border w-full"
+              className="rounded-xl p-2 bg-gray-800 border w-full"
             />
             {errors.number && (
               <div className="text-red-500">{errors.number.message}</div>
@@ -109,7 +109,7 @@ const AppointmentForm = () => {
             },
           })}
           placeholder="Description"
-          className="rounded-xl p-2 border"
+          className="rounded-xl p-2 bg-gray-800 border"
           rows={4}
         />
         {errors.description && (
@@ -118,7 +118,7 @@ const AppointmentForm = () => {
 
         <button
           type="submit"
-          className="w-full bg-[#D72323] text-white p-2 rounded-xl"
+          className="w-full bg-gradient-to-r from-[#cf8fdd] via-[#8283f9] to-[#6ce1ea] text-white p-2 rounded-xl"
         >
           Contact Us
         </button>

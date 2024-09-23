@@ -141,14 +141,14 @@ const NavBar = () => {
               className="text-2xl"
               aria-label="Close menu"
             >
-              <IoMdClose className="text-[#D72323] text-4xl" />
+              <IoMdClose className="text-[#7384f0] text-4xl" />
             </button>
           </div>
           <div className="flex flex-col gap-14 p-4 overflow-hidden">
             {items.map((item, index) => (
               <div className="relative" key={index}>
                 <div
-                  className="bg-[#D72323] absolute top-0 left-0 w-full h-full z-10 rounded-xl"
+                  className="bg-[#7384f0] absolute top-0 left-0 w-full h-full z-10 rounded-xl"
                   ref={(el) => {
                     menuItemsRef.current[index] = el;
                   }}
