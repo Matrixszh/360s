@@ -131,6 +131,26 @@
 .right-arrow {
   right: 1px;
 }
+/* Custom scrollbar styling */
+.custom-scroll ul::-webkit-scrollbar {
+  width: 8px; /* Thin scrollbar */
+}
+
+.custom-scroll ul::-webkit-scrollbar-track {
+  background: #1f1f1f; /* Darker background for the track */
+  border-radius: 10px;
+}
+
+.custom-scroll ul::-webkit-scrollbar-thumb {
+  background-color: #7384f0; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded edges for a more aesthetic look */
+  border: 2px solid #1f1f1f; /* Border to give some spacing around the thumb */
+}
+
+.custom-scroll ul::-webkit-scrollbar-thumb:hover {
+  background-color: #5063d3; /* Slightly lighter shade on hover */
+}
+
 
 /* Optional: Adjust the dots for better visibility */
 

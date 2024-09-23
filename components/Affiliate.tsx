@@ -3,48 +3,60 @@ import "react-multi-carousel/lib/styles.css";
 const Affiliate = () => {
   const slides = [
     {
-      title: "Kind Skiptracing",
-      description: "Earn passive income from Kind products by using our referral code to avail benefits:",
+      title: "Digital Marketing",
       points: [
-        "ReferralCode=ihustlebro",
-        "Get exclusive deals on products.",
-        "Flexible earning potential.",
-        "Join a community of successful affiliates.",
+        "Pay per click (PPC)",
+        "Brand Identity Development",
+        "Google My Business (GMB) Setup & Ads",
+        "Meta Services",
+        "Search Engine Optimization (SEO)",
+        "Website Designing",
+        "Content Creation",
+        "Social Media Marketing & Management",
       ],
-      link: "https://kindskiptracing.com/affiliate-program?referralCode=ihustlebro",
+      link: "#",
     },
     {
-      title: "Resimpli",
-      description: "We help real estate investors close more deals, click here to avail benefits.",
+      title: "Outdoor Marketing",
       points: [
-        "Access to valuable resources.",
-        "Tools to track your progress.",
-        "Dedicated support team.",
-        "Enhance your investment strategies.",
+        "Airline/Airport",
+        "Hoardings",
+        "Digital Display",
+        "TV Cinema",
+        "Mall Branding",
+        "Transit Media",
+        "Non-Traditional",
+        "Digital Media",
+        "Print Ad",
+        "Others Ad Solutions",
       ],
-      link: "https://resimpli.com/ihustlebro",
+      link: "#",
     },
     {
-      title: "PropStreamPro",
-      description: "Targeted lead generation with data powered by PropStream, click here to avail benefits.",
+      title: "Public Relations",
       points: [
-        "Comprehensive property data.",
-        "Market analysis tools.",
-        "Optimize your lead generation.",
-        "Increase your closing rates.",
+        "Media Relations",
+        "Influencer Relations",
+        "Government Relations",
+        "Celebrity Relations",
+        "Investor Relations",
+        "Community Relations",
+        "Event and Crisis Management",
+        "Internal Communications",
+        "Digital and Social Media PR",
       ],
-      link: "https://trial.propstreampro.com/ihustlebro",
+      link: "#",
     },
     {
-      title: "Investor Lift",
-      description: "We give wholesalers a disproportionate advantage, click here to avail benefits.",
+      title: "Branding",
       points: [
-        "Advanced deal analysis tools.",
-        "Exclusive market insights.",
-        "Network with top investors.",
-        "Boost your business growth.",
+        "Logo",
+        "Tagline",
+        "Patterns",
+        "Mockups",
+        "Colour Palette",
       ],
-      link: "http://get.investorlift.com/ihustlebro",
+      link: "#",
     },
   ];
 
@@ -58,10 +70,9 @@ const Affiliate = () => {
               key={index}
               href={data.link}
               target="_blank"
-              className="mb-8 p-6 rounded-xl text-center block transition-transform duration-300 hover:scale-105 hover:shadow-xl border border-[#7384f0] shadow-2xl bg-black" // Added border color
+              className="mb-8 p-6 rounded-xl text-center block transition-transform duration-300 hover:scale-105 hover:shadow-xl border border-[#7384f0] shadow-2xl bg-black"
             >
               <h2 className="text-[#7384f0] text-2xl mb-4">{data.title}</h2>
-              <p className="text-[#7384f0] text-justify text-lg italic">{data.description}</p>
               <ul className="text-[#7384f0] text-justify text-lg list-disc list-inside mt-2">
                 {data.points.map((point, pointIndex) => (
                   <li key={pointIndex}>{point}</li>
@@ -78,11 +89,10 @@ const Affiliate = () => {
               key={index}
               href={slide.link}
               target="_blank"
-              className="w-70 h-auto m-4 flex border border-2 border-[#7384f0] flex-col gap-4 pt-5 items-center text-black transition-transform duration-300 hover:scale-105 hover:shadow-xl rounded-xl shadow-2xl bg-black" // Added border color
+              className="w-[300px] h-[300px] m-4 flex border border-2 border-[#7384f0] flex-col justify-between pt-5 items-center text-black transition-transform duration-300 hover:scale-105 hover:shadow-xl rounded-xl shadow-2xl bg-black custom-scroll"
             >
               <h2 className="text-[#7384f0] text-justify text-3xl mb-2">{slide.title}</h2>
-              <p className="text-white text-justify text-center mx-4 italic">{slide.description}</p>
-              <ul className="text-white mx-4 text-lg list-disc list-inside mt-2">
+              <ul className="text-white mx-4 text-lg list-disc list-inside mt-2 overflow-y-auto h-[180px]">
                 {slide.points.map((point, pointIndex) => (
                   <li key={pointIndex}>{point}</li>
                 ))}

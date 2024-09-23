@@ -296,9 +296,9 @@ export default function Home() {
           id="company"
         >
           <p className="text-[#7384f0] text-center border-[1px] border-[#7384f0] px-8 py-1 rounded-2xl text-sm tracking-wider">
-            COMPANIES
+            CLIENTALE
           </p>
-          <h1 className="text-center text-white text-3xl lg:text-6xl  ">My Companies</h1>
+          <h1 className="text-center text-white text-3xl lg:text-6xl  ">Our Clients</h1>
         </div>
         <Companies />
       </section>
@@ -386,13 +386,10 @@ export default function Home() {
           id="affiliate"
         >
           <p className="text-[#7384f0] text-center border-[1px] border-[#7384f0] px-8 py-1 rounded-2xl text-sm tracking-wider">
-            AFFILIATE LINKS
+              SERVICES
           </p>
           <h1 className="text-center text-white text-3xl lg:text-6xl  ">
-            Unlock Benefits
-          </h1>
-          <h1 className="text-center text-white text-xl lg:text-3xl  ">
-            Tap a card to explore more details!
+            Our Services
           </h1>
         </div>
         <div id="affiliate-content">

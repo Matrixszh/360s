@@ -23,15 +23,10 @@ export const AboutUs = () => {
           className="text-lg text-white lg:text-xl lg:pr-14 text-justify text-center  px-2 tracking-tight"
           style={{ lineHeight: "1.85" }}
         >
-          360 Marketing Solutions is a 
-          leading providerof comprehensive marketing strategiesdesigned to drive growth
-          and elevate brandpresence. We specialize in creating integratedmarketing campaigns that deliver
-          measurableresults across various channels.
+          360 Marketing Solutions is a dynamic, forward-thinking marketing agency founded by young entrepreneur Mohammed Abdul Ayaan. With a passion for innovation and a keen understanding of the digital landscape, Ayaan launched 360 Marketing Solutions to empower businesses with comprehensive, results-driven marketing strategies.
           <span className="hidden lg:flex lg:pt-4 tracking-tight">
-            To be the go-to partner for business seeking to acheive marketing excellence through innovative and 
-            integrated strategies. We aim to empower brands with the tools and insights needed navigate complex digital 
-            landscape achieve sustainable growth. 
-          </span>
+          Our mission is simple: to provide brands with a full-circle marketing approach that maximizes their potential across all platforms—digital, social, and traditional. We believe that every brand has a unique story, and it’s our job to bring that story to life in a way that captivates audiences and drives measurable success. Led by a visionary young entrepreneur, 360 Marketing Solutions combines creativity with data-driven insights to deliver strategies that not only meet but exceed client expectations.
+            </span>
         </p>
       </div>
       <div className="">

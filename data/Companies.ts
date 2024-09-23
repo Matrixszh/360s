@@ -1,22 +1,25 @@
 import AK from "../public/Akcallers.png";
 import ES from "../public/ElliteSummit.png";
-import GM from "../public/GM1.png";
-import GMgm from "../public/Gmgm4.png";
-import NFO from "../public/NFO.png";
-import EF from "../public/EF1.png";
-import HE from "../public/HR1.png";
-import EE from "../public/ElliteEntrepreneur.png";
+import C1 from "../public/client1.png";
+import C2 from "../public/client2.png";
+import C3 from "../public/client3.png";
+import C4 from "../public/client4.png";
+import C5 from "../public/client5.png";
+import C6 from "../public/client6.png";
+import C7 from "../public/client7.png";
+import C8 from "../public/client8.png";
+import C9 from "../public/client9.png";
+
 export const data = [
   {
     domain: "Lead Generation",
     companies: [
       {
         id: 1,
-        image: AK,
+        image: C1,
         name: "AK Callers",
         info: "Professional and experienced cold callers trained on industry specific sales",
-        bgColor:
-          "linear-gradient(to top, #f1f9f1, #e8f6e8, #e0f2e0, #d7efd7, #cfebcf, #bee3bd, #addaac, #9cd29a, #7ec27a, #60b259, #3ea236, #009200)",
+        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
         link: "https://www.akcallers.com/", // Add link here
       },
     ],
@@ -26,11 +29,10 @@ export const data = [
     companies: [
       {
         id: 1,
-        image: ES,
+        image: C2,
         name: "Ellite Summit",
         info: "Empowering Entrepreneurs, Sparking Innovation, Building Success",
-        bgColor:
-          "linear-gradient(to top, #ffffff, #f2e4fb, #f3c5eb, #faa3ce, #ff80a3, #ff6f8a, #ff5e6e, #fc5050, #fa4b4b, #f84747, #f64242, #f43d3d",
+        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
       },
     ],
   },
@@ -39,11 +41,10 @@ export const data = [
     companies: [
       {
         id: 1,
-        image: GM,
+        image: C3,
         name: "Ghaffar Media",
         info: "We help Entrepreneurs build and Monetize their Personal Brand",
-        bgColor:
-          "linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(218,178,69,1) 100%)",
+        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
         link: "https://ghaffarmedia.com/",
       },
     ],
@@ -53,11 +54,10 @@ export const data = [
     companies: [
       {
         id: 1,
-        image: GMgm,
+        image: C4,
         name: "Ghaffar Management",
         info: "Experience the Ghaffar Advantage with expert property management",
-        bgColor:
-          "linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(182,33,33,1) 100%)",
+        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
         link: "https://www.ghaffarmgmt.com/",
       },
     ],
@@ -67,11 +67,10 @@ export const data = [
     companies: [
       {
         id: 1,
-        image: NFO,
+        image: C5,
         name: "National Fast Offer",
         info: "Get an offer for your house today",
-        bgColor:
-          "linear-gradient(to top, #ffffff, #eeeff9, #d9e0f3, #c0d2ee, #a3c5e7, #8ebae1, #77afdb, #5ca5d5, #4a99d0, #388eca, #2382c5, #0076bf)",
+        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
         link: "https://www.nationalfastoffer.com/",
       },
     ],
@@ -81,10 +80,10 @@ export const data = [
     companies: [
       {
         id: 1,
-        image: null,
+        image: C6,
         name: "Ghaffar Studio",
         info: "Professional studio services, delivering high-quality production and creative solutions for your projects",
-        bgColor: "",
+        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
       },
     ],
   },
@@ -93,11 +92,10 @@ export const data = [
     companies: [
       {
         id: 1,
-        image: EF,
+        image: C7,
         name: "Ellite Flippers",
         info: "Hands-on guidance that teaches you real estate wholesaling to close more deals",
-        bgColor:
-          "linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(240,48,48,1) 100%)",
+        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
         link: "https://eliteflippers.com/",
       },
     ],
@@ -107,11 +105,10 @@ export const data = [
     companies: [
       {
         id: 1,
-        image: EE,
+        image: C8,
         name: "Ellite Entrepreneurs",
         info: "Insights from Entrepreneurs to be financially free",
-        bgColor:
-          "linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(137,49,158,1) 100%)",
+        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
       },
     ],
   },
@@ -120,11 +117,10 @@ export const data = [
     companies: [
       {
         id: 1,
-        image: HE,
+        image: C9,
         name: "Homerun Equity",
         info: "Sell Your Deal Fast! Partner with Nationwide Property Liquidators!",
-        bgColor:
-          "linear-gradient(to top, #ffffff, #ececfb, #d5daf8, #bac9f6, #99baf3, #86b2f1, #6faaf0, #54a2ee, #4d9eee, #479bed, #4097ed, #3993ec)",
+        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
         link: "https://homerunequity.com/",
       },
     ],
