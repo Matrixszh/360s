@@ -28,13 +28,13 @@ export const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
-                Companies
+              <a href="#affiliate" className="hover:underline me-4 md:me-6">
+                Services
               </a>
             </li>
             <li>
               <a href="#" className="hover:underline">
-                Pricing
+                Home
               </a>
             </li>
           </ul>
