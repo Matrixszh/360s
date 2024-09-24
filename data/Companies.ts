@@ -120,8 +120,7 @@ export const data = [
         name: "Wildwood Ranch",
         info: "Wildwood Ranch is a scenic retreat offering outdoor adventure, recreational activities, and camp experiences in a natural, rustic setting.",
         bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
-        link: "https://homerunequity.com/",
-      },
+       },
     ],
   },
 ];
