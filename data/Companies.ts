@@ -11,19 +11,7 @@ import C8 from "../public/client8.png";
 import C9 from "../public/client9.png";
 
 export const data = [
-  {
-    domain: "Lead Generation",
-    companies: [
-      {
-        id: 1,
-        image: C1,
-        name: "Ethames",
-        info: "At EThames College, we are dedicated to providing quality education.",
-        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
-        link: "https://www.akcallers.com/", // Add link here
-      },
-    ],
-  },
+  
   {
     domain: "Gladiator Gym",
     companies: [
@@ -49,19 +37,7 @@ export const data = [
       },
     ],
   },
-  {
-    domain: "",
-    companies: [
-      {
-        id: 1,
-        image: C4,
-        name: "Brew Haven Cafe",
-        info: "Brew Heaven Café is a cozy spot offering freshly brewed coffee, artisan pastries, and a relaxing atmosphere for coffee lovers.",
-        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
-        
-      },
-    ],
-  },
+  
   {
     domain: " ",
     companies: [
@@ -86,31 +62,7 @@ export const data = [
       },
     ],
   },
-  {
-    domain: "",
-    companies: [
-      {
-        id: 1,
-        image: C7,
-        name: "The Wilsons",
-        info: "Wilson's Clothing offers stylish, high-quality apparel that blends classic designs with modern trends for versatile, everyday wear.",
-        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
-       
-      },
-    ],
-  },
-  {
-    domain: "Podcast",
-    companies: [
-      {
-        id: 1,
-        image: C8,
-        name: "Little Warrior",
-        info: "Insights from Entrepreneurs to be financially free",
-        bgColor: "linear-gradient(to right, #cf8fdd, #8283f9, #6ce1ea)",
-      },
-    ],
-  },
+  
   {
     domain: "Joint Venture With Us",
     companies: [
