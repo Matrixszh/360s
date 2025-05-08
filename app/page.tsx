@@ -287,22 +287,7 @@ export default function Home() {
           <AboutUs />
         </div>
       </section>
-      <section
-        id="companies"
-        className="flex flex-col items-center min-h-screen  lg:gap-[6vh] gap-[6vh] overflow-hidden scroll-mt-6"
-      >
-        <div
-          className="flex flex-col items-center gap-4 justify-center lg:justify-start pt-[5vh]"
-          id="company"
-        >
-          <p className="text-[#7384f0] text-center border-[1px] border-[#7384f0] px-8 py-1 rounded-2xl text-sm tracking-wider">
-            CLIENTALE
-          </p>
-          <h1 className="text-center text-white text-3xl lg:text-6xl  ">Our Clients</h1>
-        </div>
-        <Companies />
-      </section>
-
+      
       <section
         className="flex flex-col items-center lg:min-h-screen  lg:gap-[6vh] gap-[6vh] overflow-hidden"
         id="collaboration-sec"
@@ -315,7 +300,7 @@ export default function Home() {
             PROJECTS
           </p>
           <h1 className="text-center text-white text-3xl lg:text-6xl  ">
-            Our Works
+            Our Projects
           </h1>
         </div>
         <Collaborations />
@@ -343,11 +328,11 @@ export default function Home() {
 
       <section
         className=" flex flex-col lg:gap-[6vh] gap-[6vh] overflow-hidden"
-        id="pricing-sec"
+        
       >
         <div
           className="flex flex-col items-center gap-4 justify-center lg:justify-start pt-[5vh]"
-          id="pricing"
+          id="form"
         >
           <p className="text-[#7384f0] text-center border-[1px] border-[#7384f0] px-8 py-1 rounded-2xl text-sm tracking-wider">
             PRICING
